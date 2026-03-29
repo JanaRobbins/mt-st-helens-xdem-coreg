@@ -1,9 +1,6 @@
 # Ignore DEM data
 *.tif
 
-# Ignore outputs
-output/
-
 # Python cache
 __pycache__/
 
