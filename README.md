@@ -35,6 +35,17 @@ The 2008 and 2025 datasets were co-registered to the 1984 DEM.
 4. Save corrected DEMs
 5. Calculate NMAD before and after correction
 
+## Installation
+
+Install dependencies using:
+pip install -r requirements.txt
+
+xdem
+rasterio
+numpy
+pandas
+matplotlib
+
 ## Outputs
 
 - `dem_2008_coreg.tif`
@@ -49,14 +60,6 @@ Co-registration reduced elevation differences on stable terrain:
 |-----|-------------|------------|
 | 2008 | 2.206073 m | 2.158566 m |
 | 2025 | 2.589211 m | 1.876958 m |
-
-## Requirements
-
-xdem
-rasterio
-numpy
-pandas
-matplotlib
 
 ## Reproducibility
 
