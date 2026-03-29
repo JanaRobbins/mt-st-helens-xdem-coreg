@@ -64,7 +64,7 @@ The full co-registration workflow was implemented in Python using xDEM and is av
 
 ## Credits
 
-The code was created during the study of the module Remote Sensing and Advance Image Analysis in the School of Geography and Environmental Sciences in the [University of Ulster](https://www.ulster.ac.uk/courses/202324/geographic-information-systems-30225).  
+The code was created during the study of the module Photogrammetry and Advance Image Analysis in the School of Geography and Environmental Sciences in the [University of Ulster](https://www.ulster.ac.uk/courses/202324/geographic-information-systems-30225).  
 
 
 ## Licence
