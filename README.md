@@ -1,6 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic)  ![GitHub last commit](https://img.shields.io/github/last-commit/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![GitHub repo directory count](https://img.shields.io/github/directory-file-count/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![](https://komarev.com/ghpvc/?username=JanaRobbins&style=plastic&label=Profile+views&color=ff69b4)
 
-# xDEM Co-registration 
+# xDEM Co-registration for
 # Mount St. Helens crater glacier and lava dome analysis
 
 This project performs DEM co-registration and uncertainty assessment for Mount St. Helens crater using the xDEM library.
@@ -46,9 +46,9 @@ The 2008 and 2025 datasets were co-registered to the 1984 DEM.
 Co-registration reduced elevation differences on stable terrain:
 
 | DEM | NMAD Before | NMAD After |
-|-----|------------|-----------|
-| 2008 | X.XX m | X.XX m |
-| 2025 | X.XX m | X.XX m |
+|-----|-------------|------------|
+| 2008 | 2.206073 m | 2.158566 m |
+| 2025 | 2.589211 m | 1.876958 m |
 
 ## Requirements
 
