@@ -62,6 +62,11 @@ matplotlib
 
 The full co-registration workflow was implemented in Python using xDEM and is available in this repository.
 
-## Author
+## Credits
 
-Jana Robbins
+The code was created during the study of the module Programming for GIS and Remote Sensing in the School of Geography and Environmental Sciences in the [University of Ulster](https://www.ulster.ac.uk/courses/202324/geographic-information-systems-30225).  
+
+
+## Licence
+
+A MIT licence was used. To use this code please contact the author at janarobbins.gis@gmail.com 
