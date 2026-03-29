@@ -1,2 +1,3 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic)  ![GitHub last commit](https://img.shields.io/github/last-commit/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![GitHub repo directory count](https://img.shields.io/github/directory-file-count/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![](https://komarev.com/ghpvc/?username=JanaRobbins&style=plastic&label=Profile+views&color=ff69b4)
 # mt-st-helens-xdem-coreg
 Coregistration of DEMs for Mt. St. Helens using xDEM
