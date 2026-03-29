@@ -1,6 +1,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic)  ![GitHub last commit](https://img.shields.io/github/last-commit/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![GitHub watchers](https://img.shields.io/github/watchers/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![GitHub repo directory count](https://img.shields.io/github/directory-file-count/JanaRobbins/mt-st-helens-xdem-coreg?style=plastic) ![](https://komarev.com/ghpvc/?username=JanaRobbins&style=plastic&label=Profile+views&color=ff69b4)
 
-# DEM Co-registration – Mount St. Helens
+# xDEM Co-registration - Mount St. Helens crater glacier and lava dome analysis
 
 This project performs DEM co-registration and uncertainty assessment for Mount St. Helens crater using the xDEM library.
 
