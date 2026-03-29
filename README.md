@@ -40,7 +40,7 @@ The 2008 and 2025 datasets were co-registered to the 1984 DEM.
 Install dependencies using:
 pip install -r requirements.txt
 
-# Libraries
+### Libraries
 xdem
 rasterio
 numpy
