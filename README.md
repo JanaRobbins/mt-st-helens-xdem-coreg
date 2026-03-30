@@ -12,9 +12,9 @@ Four elevation datasets were used:
 - 1979 DEM (10 m, aerial photogrammetric, pre-coregistered)
 - 1984 DEM (10 m, aerial photogrammetric, reference DEM, pre-coregistered)
 - 2008 DSM (ALOS World 3D, originally 30 m, resampled to 10 m)
-- 2025 DEM (USGS 3D Elevation Program, ~10 m resolution)
+- 2023 DEM (USGS 3D Elevation Program, published in 2025, ~10 m resolution)
 
-The 2008 and 2025 datasets were co-registered to the 1984 DEM.
+The 2008 and 2023 datasets were co-registered to the 1984 DEM.
 
 ## Method
 
