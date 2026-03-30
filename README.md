@@ -60,7 +60,7 @@ Co-registration reduced elevation differences on stable terrain:
 | DEM | NMAD Before | NMAD After |
 |-----|-------------|------------|
 | 2008 | 2.206073 m | 2.158566 m |
-| 2025 | 2.589211 m | 1.876958 m |
+| 2023 | 2.589211 m | 1.876958 m |
 
 ## Reproducibility
 
