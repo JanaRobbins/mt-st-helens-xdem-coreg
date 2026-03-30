@@ -25,7 +25,7 @@ The 2008 and 2023 datasets were co-registered to the 1984 DEM.
 - The mask was rasterized to match the DEM grid (same extent, resolution, and alignment)
 - Co-registration was performed using the Nuth & Kääb method implemented in xDEM
 - Only stable terrain pixels were used for fitting
-- NMAD was calculated before and after co-registration
+- Shifts and NMAD was calculated before and after co-registration
 
 ## Workflow
 
