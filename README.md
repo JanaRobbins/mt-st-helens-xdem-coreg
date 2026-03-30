@@ -9,7 +9,7 @@ This project performs DEM co-registration and uncertainty assessment for Mount S
 
 Four elevation datasets were used:
 
-- 1979 DEM (10 m, aerial photogrammetric, pre-coregistered)
+- 1979 DEM (10 m, aerial photogrammetric, reference DEM, pre-coregistered)
 - 1984 DEM (10 m, aerial photogrammetric, reference DEM, pre-coregistered)
 - 2008 DSM (ALOS World 3D, originally 30 m, resampled to 10 m)
 - 2023 DEM (USGS 3D Elevation Program, published in 2025, ~10 m resolution)
@@ -50,7 +50,7 @@ matplotlib
 ## Outputs
 
 - `dem_2008_coreg.tif`
-- `dem_2025_coreg.tif`
+- `dem_2023_coreg.tif`
 - `coreg_stats.csv`
 
 ## Results
