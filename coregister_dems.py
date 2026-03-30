@@ -86,7 +86,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 REF_PATH = DATA_DIR / "dem_1984.tif"
 DEM_PATHS = [
     DATA_DIR / "dem_2008.tif",
-    DATA_DIR / "dem_2025.tif",
+    DATA_DIR / "dem_2023.tif",
 ]
 MASK_PATH = DATA_DIR / "stable_mask.tif"
 
