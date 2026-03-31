@@ -33,7 +33,7 @@ In this script the 2008 and 2023 datasets were co-registered to the 1984 DEM.
 2. Apply stable terrain mask
 3. Perform Nuth & Kääb co-registration
 4. Save corrected DEMs
-5. Calculate NMAD before and after correction
+5. Calculate shifts and NMAD before and after correction
 
 ## Installation
 
