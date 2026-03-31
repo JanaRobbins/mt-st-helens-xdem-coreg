@@ -77,6 +77,7 @@ DEM_PATHS = [
     DATA_DIR / "dem_2023.tif",
 ]
 MASK_PATH = DATA_DIR / "stable_mask.tif"
+```
 
 ## Credits
 
