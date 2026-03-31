@@ -66,6 +66,18 @@ Co-registration reduced elevation differences on stable terrain:
 
 The full co-registration workflow was implemented in Python using xDEM and is available in this repository.
 
+## File paths to edit
+
+Before running the script, update these lines in `coregister_dems.py` if your file names are different:
+
+```python
+REF_PATH = DATA_DIR / "dem_1984.tif"
+DEM_PATHS = [
+    DATA_DIR / "dem_2008.tif",
+    DATA_DIR / "dem_2023.tif",
+]
+MASK_PATH = DATA_DIR / "stable_mask.tif"
+
 ## Credits
 
 The code was created during the study of the module Photogrammetry and Advance Image Analysis in the School of Geography and Environmental Sciences in the [University of Ulster](https://www.ulster.ac.uk/courses/202324/geographic-information-systems-30225).  
