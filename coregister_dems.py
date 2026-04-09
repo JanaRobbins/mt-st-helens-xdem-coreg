@@ -48,9 +48,9 @@ def configure_proj_gdal() -> None:
 
 configure_proj_gdal()
 
-# --------
+# -------
 # Imports
-# --------
+# -------
 import numpy as np
 import pandas as pd
 import rasterio
