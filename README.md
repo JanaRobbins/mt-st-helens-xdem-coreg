@@ -86,4 +86,4 @@ The code was created during the study of the module Photogrammetry and Advance I
 
 ## Licence
 
-A MIT licence was used. To use this code please contact the author at - janarobbins.gis@gmail.com 
+A MIT licence was used. You can contact author at - janarobbins.gis@gmail.com 
