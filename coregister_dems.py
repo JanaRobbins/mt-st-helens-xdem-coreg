@@ -5,9 +5,8 @@ import sys
 import logging
 from pathlib import Path
 
-# ------------------------------------------------------
 # Configure PROJ / GDAL BEFORE importing rasterio / xdem
-# ------------------------------------------------------
+
 def configure_proj_gdal() -> None:
     os.environ.pop("PROJ_LIB", None)
     os.environ.pop("PROJ_DATA", None)
@@ -48,9 +47,8 @@ def configure_proj_gdal() -> None:
 
 configure_proj_gdal()
 
-# -------
 # Imports
-# -------
+
 import numpy as np
 import pandas as pd
 import rasterio
@@ -59,9 +57,8 @@ import xdem
 import geoutils as gu
 
 
-# --------
 # Logging
-# --------
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(levelname)s | %(message)s"
@@ -69,9 +66,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-# ------
 # Paths
-# ------
+
 def get_project_dir() -> Path:
     if "__file__" in globals():
         return Path(__file__).resolve().parent
@@ -91,9 +87,8 @@ DEM_PATHS = [
 MASK_PATH = DATA_DIR / "stable_mask.tif"
 
 
-# ----------
 # Utilities
-# ----------
+
 def validate_inputs() -> None:
     required = [REF_PATH, MASK_PATH, *DEM_PATHS]
     missing = [str(p) for p in required if not p.exists()]
@@ -125,7 +120,7 @@ def dem_to_nan_array(dem: xdem.DEM) -> np.ndarray:
 def load_and_align_mask(mask_path: Path, ref_dem: xdem.DEM) -> np.ndarray:
     """
     Load mask and align it to reference DEM grid.
-    Assumes stable terrain = 1, unstable terrain = 0.
+    Stable terrain = 1, unstable terrain = 0.
     """
     with rasterio.open(mask_path) as src:
         mask = src.read(1)
@@ -293,9 +288,8 @@ def process_dem(ref_dem: xdem.DEM, dem_path: Path, stable_mask: np.ndarray) -> d
     }
 
 
-# -------
 # Main
-# -------
+
 def main() -> None:
     validate_inputs()
 
